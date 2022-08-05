@@ -12,4 +12,3 @@ class TestRegistrationPage:
         registration_page.filling_out_the_form()
         confirm_code = registration_page.get_confirm_code()
         registration_page.enter_the_confirm_code(confirm_code)
-        time.sleep(30)
